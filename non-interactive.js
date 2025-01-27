@@ -114,7 +114,7 @@ function getBotResponse(userMessage) {
 // Function to fetch content using the API
 
 async function getAiResponse(pucha) {
-  const url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyCyinshJiYNJkChiSRNOxluX0hLHmtiDQA";
+  const url = "hardocodedAPI";
   
   // Define the data to send in the POST request
   const requestData = {
