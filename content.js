@@ -86,7 +86,7 @@ function sendMessage(inputField) {
 
 // Function to fetch content using the API
 async function getAiResponse() {
-    const url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyCyinshJiYNJkChiSRNOxluX0hLHmtiDQA";
+    const url = "hardcoded";
 
     // Build the message content from conversation history
     const requestData = {
